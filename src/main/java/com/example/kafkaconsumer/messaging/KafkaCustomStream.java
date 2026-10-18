@@ -1,6 +1,6 @@
-package com.example.kafkaconsumer;
+package com.example.kafkaconsumer.messaging;
 
-import com.example.kafkaconsumer.rest.controllers.ExampleDto;
+import com.example.kafkaconsumer.model.ExampleDto;
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.streams.StreamsBuilder;
 import org.apache.kafka.streams.kstream.Consumed;

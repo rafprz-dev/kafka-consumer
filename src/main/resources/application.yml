@@ -12,12 +12,12 @@ spring:
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
       properties:
-        spring.json.trusted.packages: com.example.kafkaconsumer.rest.controllers
+        spring.json.trusted.packages: com.example.kafkaconsumer.model
     streams:
       bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:9092}
       application-id: ${KAFKA_STREAMS_APP_ID:kafka-consumer-streams}
       properties:
-        spring.json.trusted.packages: com.example.kafkaconsumer.rest.controllers
+        spring.json.trusted.packages: com.example.kafkaconsumer.model
 
 app:
   kafka:

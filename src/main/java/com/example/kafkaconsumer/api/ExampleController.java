@@ -1,5 +1,6 @@
-package com.example.kafkaconsumer.rest.controllers;
+package com.example.kafkaconsumer.api;
 
+import com.example.kafkaconsumer.model.ExampleDto;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.web.bind.annotation.GetMapping;

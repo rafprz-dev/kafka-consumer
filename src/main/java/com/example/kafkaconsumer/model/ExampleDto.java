@@ -1,4 +1,4 @@
-package com.example.kafkaconsumer.rest.controllers;
+package com.example.kafkaconsumer.model;
 
 import lombok.Data;
 
